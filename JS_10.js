@@ -464,7 +464,7 @@ function myFunction1() {
   if (checkBox1.checked == true){
     text1.style.visibility = "visible";
     jQuery('#seventeenth').html("\\(v = v(x,y,z,\\cancelto{0}{t})\\)");
-    jQuery('#seventeenth').css("font-size", "18px");
+    jQuery('#seventeenth').css("font-size", "15px");
     MathJax.startup.defaultReady();
 	
 	if(checkbox1_check == 0){
@@ -491,7 +491,7 @@ function myFunction2() {
   if (checkBox2.checked == true){
     text2.style.visibility = "visible";
     jQuery('#seventeenth').html("\\(v = v(\\cancelto{0}{x},y,z,\\cancelto{0}{t})\\)");
-    jQuery('#seventeenth').css("font-size", "18px");
+    jQuery('#seventeenth').css("font-size", "15px");
     MathJax.startup.defaultReady();
 	
 	if(checkbox2_check == 0){
@@ -539,7 +539,7 @@ function myFunction4() {
   if (checkBox4.checked == true){
     text4.style.visibility = "visible";
     jQuery('#seventeenth').html("\\(v = v(\\cancelto{0}{x},y,\\cancelto{0}{z},\\cancelto{0}{t})\\)");
-    jQuery('#seventeenth').css("font-size", "18px");
+    jQuery('#seventeenth').css("font-size", "15px");
     MathJax.startup.defaultReady();
 	
 	if(checkbox4_check == 0){
