@@ -2,17 +2,20 @@ p {
   font-size: 30px;
 }
 
+div {
+  font-family: arial;
+}
+
 .headers {
-  font-weight:bold;
   font-family: arial;
 }
 
 .special {
-  font-weight: bold;
+  font-family: arial;
 }
 
 span {
-  font-weight: bold;
+  font-family: arial;
 }
 
 
