@@ -466,6 +466,7 @@ function myFunction1() {
   var checkBox2 = document.getElementById("checkbox2");
   var checkBox3 = document.getElementById("checkbox3");
   var checkBox4 = document.getElementById("checkbox4");
+  jQuery(".final").hide(); 
   
         if(checkBox1.checked == true && checkBox2.checked == false && checkBox3.checked == false && checkBox4.checked == false ){
             jQuery('#seventeenth').html("\\(v = v(x,y,z,\\cancelto{0}{t})\\)");
@@ -588,7 +589,7 @@ function myFunction2() {
   var checkBox2 = document.getElementById("checkbox2");
   var checkBox3 = document.getElementById("checkbox3");
   var checkBox4 = document.getElementById("checkbox4");
-  
+  jQuery(".final").hide(); 
 
   
         if(checkBox1.checked == true && checkBox2.checked == false && checkBox3.checked == false && checkBox4.checked == false ){
@@ -709,7 +710,7 @@ function myFunction3() {
   var checkBox2 = document.getElementById("checkbox2");
   var checkBox3 = document.getElementById("checkbox3");
   var checkBox4 = document.getElementById("checkbox4");
-  
+  jQuery(".final").hide(); 
   
         if(checkBox1.checked == true && checkBox2.checked == false && checkBox3.checked == false && checkBox4.checked == false ){
             jQuery('#seventeenth').html("\\(v = v(x,y,z,\\cancelto{0}{t})\\)");
@@ -825,7 +826,7 @@ function myFunction4() {
   var checkBox2 = document.getElementById("checkbox2");
   var checkBox3 = document.getElementById("checkbox3");
   var checkBox4 = document.getElementById("checkbox4");
-  
+  jQuery(".final").hide(); 
   
         if(checkBox1.checked == true && checkBox2.checked == false && checkBox3.checked == false && checkBox4.checked == false ){
             jQuery('#seventeenth').html("\\(v = v(x,y,z,\\cancelto{0}{t})\\)");
@@ -1174,8 +1175,7 @@ $('.ans_btn').click(function() {
 		
 	  
 		if(secound_section == 4){
-		   jQuery(".final").show();   
-		   
+		    jQuery(".final").show();   
 			jQuery('.flow_btn button').css('border', '2px solid green');
 			jQuery('.flow_btn_icon').html('<span><img src="https://whytowiki.com/scion/public/check.svg" class="icon_img"/></span>  <span class="tooltip__content"><p class="tooltip_header">Correct <span class="tooltip_img"><img src="https://whytowiki.com/scion/public/check.svg" class="icon_img"/></span></p><p class="contant_tooltip"><b>Correct Answer:</b> Flow is steady, fully developed in x and z</p></span>');
 		} else{
