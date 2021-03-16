@@ -6,6 +6,24 @@ div {
   font-family: arial;
 }
 
+.first:hover {
+  color: red;
+}
+
+.third:hover {
+  color: red;
+}
+
+.fourth:hover {
+  color: red;
+}
+
+
+.sixth:hover {
+  color: red;
+}
+
+
 .headers {
   font-family: arial;
 }
