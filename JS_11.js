@@ -963,7 +963,7 @@ $('.ans_btn').click(function() {
         jQuery(".final").hide();jQuery("#nineteenth").hide();
         jQuery(this).css('border', '2px solid red');
         jQuery("#eighth").css('border', '2px solid red');
-        jQuery("#eighth").css('background-color', '#CD5C5C');
+        jQuery("#eighth").css('background-color', '#FFB6C1');
         jQuery('.btn_icon').html('<span><img src="https://whytowiki.com/scion/public/remove.svg" class="icon_img"/></span> <span class="tooltip__content"><p class="tooltip_header">Incorrect <span class="tooltip_img"><img src="https://whytowiki.com/scion/public/remove.svg" class="icon_img"/></span></p><p class="contant_tooltip"><b>Correct Answer:</b> Cancel 1st, 2nd & 4th term. Then, attribute the correct assumptions</p></span>');
         
     }
