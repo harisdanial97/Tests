@@ -206,8 +206,8 @@ span.flow_btn_icon {
 
 .btn_icon span.tooltip__content {
     width: 225px;
-    left: -100px;
-    margin-bottom: -12px;
+    left: -210px;
+    margin-bottom: -50px;
 }
 
 
@@ -350,7 +350,7 @@ span.btn_icon {
 .main_grid2{
 	display: grid;
 	grid-template-columns: 25% 25% 25% 25%;
-	max-width: 600px;
+	max-width: 590px;
 	text-align: center;
 	height: 30px;
 	width: 100%;
