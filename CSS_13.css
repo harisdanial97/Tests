@@ -205,7 +205,7 @@ span.flow_btn_icon {
 }
 
 .btn_icon span.tooltip__content {
-    width: 180px;
+    width: 100px;
     left: -210px;
     margin-bottom: -50px;
 }
