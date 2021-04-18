@@ -957,7 +957,7 @@ $('.ans_btn').click(function() {
          
          jQuery("#eighth").css('border', '2px solid green');
          jQuery("#eighth").css('background-color', '#90EE90');
-         jQuery('.btn_icon').html('<span><img src="https://whytowiki.com/scion/public/check.svg" class="icon_img"/></span>  <span class="tooltip__content"><p class="tooltip_header">Correct <span class="tooltip_img"><img src="https://whytowiki.com/scion/public/check.svg" class="icon_img"/></span></p><p class="contant_tooltip"><b>Correct Answer:</b> Cancel 1st, 2nd & 4th term. Then, attribute the correct assumptions</p></span>');
+         jQuery('.btn_icon').html('<span><img src="https://whytowiki.com/scion/public/check.svg" class="icon_img"/></span>  <span class="tooltip__content"><p class="tooltip_header">Correct <span class="tooltip_img"><img src="https://whytowiki.com/scion/public/check.svg" class="icon_img"/></span></p><p class="contant_tooltip"><b>Correct Answer:</b> Cancel 1st, 2nd & 4th term and attribute correct assumptions</p></span>');
         
          
     } else{
@@ -965,7 +965,7 @@ $('.ans_btn').click(function() {
         
         jQuery("#eighth").css('border', '2px solid red');
         jQuery("#eighth").css('background-color', '#FFB6C1');
-        jQuery('.btn_icon').html('<span><img src="https://whytowiki.com/scion/public/remove.svg" class="icon_img"/></span> <span class="tooltip__content"><p class="tooltip_header">Incorrect <span class="tooltip_img"><img src="https://whytowiki.com/scion/public/remove.svg" class="icon_img"/></span></p><p class="contant_tooltip"><b>Correct Answer:</b> Cancel 1st, 2nd & 4th term. Then, attribute the correct assumptions</p></span>');
+        jQuery('.btn_icon').html('<span><img src="https://whytowiki.com/scion/public/remove.svg" class="icon_img"/></span> <span class="tooltip__content"><p class="tooltip_header">Incorrect <span class="tooltip_img"><img src="https://whytowiki.com/scion/public/remove.svg" class="icon_img"/></span></p><p class="contant_tooltip"><b>Correct Answer:</b> Cancel 1st, 2nd & 4th term and attribute correct assumptions</p></span>');
         
     }
 	
