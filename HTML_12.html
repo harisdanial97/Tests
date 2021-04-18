@@ -1,0 +1,136 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Webpage</title>
+
+  <link rel="stylesheet" type="text/css" href="https://combinatronics.com/harisdanial97/Tests/main/CSS_12.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://combinatronics.com/harisdanial97/Tests/main/JS_12.js"></script>
+
+
+    
+</head>
+
+
+<body>
+
+  
+    
+    <div class="headers">Starting with the continuity equation, select which terms can be cancelled and attribute each cancellation to an assumption given in the question. Press the 'check' button once you have finalised all of your cancellations.</div>
+
+  
+  <p class="main_grid">
+  <span class="first" id="first" data-click-state="1">\({{\partial \rho} \over {\partial t}}\)</span>
+  <span id="second">\(+\)</span> 
+  <span class="third" id="third" data-click-state="1">\({{\partial u} \over {\partial x}}\)</span> 
+  <span id="symbol"> \(+\) </span> 
+  <span class="fourth" id="fourth" data-click-state="1"> \({{\partial v} \over {\partial y}}\)</span> 
+  <span id="fifth">\(+\)</span> 
+  <span class="sixth" id="sixth" data-click-state="1"> \({{\partial w} \over {\partial z}}\) </span>
+  <span id="seventh">\(= 0\)</span> 
+  </p>
+
+<div class="main_grid2">
+<form id="myform1" class="myform1">
+        <select class="Assumptions1" id="Assumptions1" name="Assumptions1">
+          <option value="s2">-Choose an assumption-</option>
+          <option value="a1">Steady flow</option>
+          <option value="b1">Uniform flow in x-direction</option>
+          <option value="c1">Uniform flow in y-direction</option>
+          <option value="d1">Uniform flow in z-direction</option>
+        </select>
+      <div class="ninth tooltip" id="ninth"><span><img src="https://whytowiki.com/scion/public/check.svg" class="icon_img"/></span> </div>
+</form>
+
+<form id="myform2" class="myform2">
+        <select class="Assumptions2" id="Assumptions2" name="Assumptions2">
+          <option value="s2">-Choose an assumption-</option>
+          <option value="a2">Steady flow</option>
+          <option value="b2">Uniform flow in x-direction</option>
+          <option value="c2">Uniform flow in y-direction</option>
+          <option value="d2">Uniform flow in z-direction</option>
+        </select>
+      <div class="tenth tooltip" id="tenth"><span><img src="https://whytowiki.com/scion/public/check.svg" class="icon_img"/></span></div>
+</form>
+
+<form id="myform3" class="myform3">
+        <select class="Assumptions3" id="Assumptions3" name="Assumptions3" onsubmit="submitForm();">
+          <option value="s2">-Choose an assumption-</option>
+          <option value="a2">Steady flow</option>
+          <option value="b2">Uniform flow in x-direction</option>
+          <option value="c2">Uniform flow in y-direction</option>
+          <option value="d2">Uniform flow in z-direction</option>
+        </select>
+      <div class="eleventh tooltip" id="eleventh"><span><img src="https://whytowiki.com/scion/public/remove.svg" class="icon_img"/></span></div>
+</form>
+
+<form id="myform4" class="myform4">
+        <select class="Assumptions4" id="Assumptions4" name="Assumptions4">
+          <option value="s2">-Choose an assumption-</option>
+          <option value="a2">Steady flow</option>
+          <option value="b2">Uniform flow in x-direction</option>
+          <option value="c2">Uniform flow in y-direction</option>
+          <option value="d2">Uniform flow in z-direction</option>
+        </select>
+      <div class="twelfth tooltip" id="twelfth"><span><img src="https://whytowiki.com/scion/public/check.svg" class="icon_img"/></span></div>
+</form>
+</div>
+<div class="clear"></div>  
+<div class="center_btn">
+  <button class="ans_btn">Check</button> <span class="btn_icon tooltip"></span>
+  
+  <button class="btn_reload"  onClick="(function(){location.reload();})();return false;" >Reset</button> 
+</div>
+
+  <p>
+  <div class="headers">Live preview of the simplified continuity equation based on your cancellations:</div>
+  <span class="eighth" id="eighth">
+  \({{\partial \rho} \over {\partial t}} +{{\partial u} \over {\partial x}} + {{\partial v} \over {\partial y}} + {{\partial w} \over {\partial z}} = 0 \vphantom{\require{cancel}\cancelto{0} {{\partial \rho} \over {\partial t}}}\)
+  </span>
+  </p>
+
+
+<div class="nineteenth" id="nineteenth" style="display:none;"><span> <hr> <br>Integrating the simplified continuity equation shown above, we obtain \(v(y) = constant\). <br><br> In general: <span class="seventeenth" id="seventeenth">\(v = v(x,y,z,t)\)</span></span>
+<br>
+<br>
+<div class="special"> <br><b>But we can apply the following assumptions:</b> </div> <br>
+    <div class="relative">
+      <label for="checkbox1">Flow is steady</label> 
+      <input type="checkbox" id="checkbox1" value="Check Answer" onclick="myFunction1()">
+      <span class="thirteenth tooltip " id="thirteenth"></span>
+    </div>
+    
+<br>
+  <div class="relative">
+      <label for="checkbox2">Uniform flow in x direction</label> 
+      <input type="checkbox" id="checkbox2" value="Check Answer" onclick="myFunction2()">
+      <span class="fourteenth tooltip " id="fourteenth"></span>
+  </div>
+<br>
+  <div class="relative">
+      <label for="checkbox3">Uniform flow in y direction</label> 
+      <input type="checkbox" id="checkbox3" value="Check Answer" onclick="myFunction3()">
+      <span class="fifteenth tooltip " id="fifteenth"></span>
+  </div>
+<br>
+  <div class="relative">
+      <label for="checkbox4">Uniform flow in z direction</label> 
+      <input type="checkbox" id="checkbox4" value="Check Answer" onclick="myFunction4()">
+      <span class="sixteenth tooltip " id="sixteenth"></span>
+  </div>
+  <div class="flow_btn">
+    <div style="position:relative;">
+      <button class="flow_btn_special">Check</button><span class="flow_btn_icon tooltip"></span>
+    </div>
+  </div>
+  
+</div> 
+
+
+<br>
+<span class="final" id="final" style="display:none;"> <hr> <br> This confirms that \(v\) is only a function of \(y\) where \(v = v(y) = constant\). We can then apply the no-slip boundary condition at the plate, \(v(y=0) = 0 = constant\). <br><br> Thus, it is proven that \(v = 0 \) everywhere in the flow. </span>
+</body>
+</html>
