@@ -258,7 +258,7 @@ span.flow_btn_icon {
 form .icon_img {
     position: absolute;
     top: 4px;
-    right: 0px;
+    right: -15px;
 }
 
 [data-click-state="0"] {
