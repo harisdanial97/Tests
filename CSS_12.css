@@ -150,10 +150,12 @@ span.flow_btn_icon {
 	visibility: visible;
 	position:relative;
 }
+
 button{
 	padding: 5px 15px;
     margin: 0 auto;
 }
+
 .flow_btn span.tooltip__content {
 	bottom: 28px;
 	right: -150px;
