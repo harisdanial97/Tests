@@ -403,15 +403,7 @@ span.btn_icon {
 	    padding-left: 5px;
     font-size: 16px;
 }
-.tooltip .tooltip__content::after {
-     border-width: 8px;
-    border-style: solid;
-    border-color: #f1f1f1 transparent transparent transparent;
-    content: "";
-    right: 40%;
-  position: absolute;
-  top: 100%;
-}
+
 p.tooltip_header i {
     position: initial;
     padding: 3px 4px;
