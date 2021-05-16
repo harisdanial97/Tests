@@ -270,12 +270,13 @@ span.flow_btn_icon {
   display: none;
   font-size: 12px;
   background-color:#ff6666;
-  width: 430px;
+  width: 340px;
   padding: 5px;
   border-radius: 8px;
   position: relative;
   right: -390px;
   top: -60px;
+  text-align: justify;
 }
 
 .info_button:hover + .hide {
