@@ -533,8 +533,9 @@ visibility: visible;
 }
 
 #nineteenth_check span.tooltip__content {
-	right: -230px;
+	right: -100px;
 	bottom: 130px;
+	width: 250px;
 }
 
 #flux1-div{
